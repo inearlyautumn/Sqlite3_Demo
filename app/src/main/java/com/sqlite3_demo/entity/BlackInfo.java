@@ -7,4 +7,11 @@ public class BlackInfo {
 	public String number;
 	public int type;
 
+	@Override
+	public String toString() {
+		return "BlackInfo{" +
+				"number='" + number + '\'' +
+				", type=" + type +
+				'}';
+	}
 }
